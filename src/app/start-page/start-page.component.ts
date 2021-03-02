@@ -103,7 +103,7 @@ export class StartPageComponent implements OnInit {
   }
 
   clear(){
-    console.log("clearbuttonclicked");
+    console.log("clear button clicked");
   }
 
   expandFilters(){
@@ -120,6 +120,10 @@ export class StartPageComponent implements OnInit {
 
   search(){
     console.log("search sumthin");
+  }
+
+  snippetClick(){
+    console.log("snippet was clicked")
   }
 
 }
