@@ -11,7 +11,7 @@ export class StartPageComponent implements OnInit {
   nav = [
     {
       icon: "dashboard",
-      navlink: "/start-page",
+      navlink: "/start-page/home-splash",
       classes: ["", ""],
     },
     {
@@ -22,7 +22,7 @@ export class StartPageComponent implements OnInit {
 
     {
       icon: "sideBySide",
-      navlink: "/start-page",
+      navlink: "/start-page/side-by-side",
       classes: ["", ""]
     },
     {
@@ -93,6 +93,26 @@ export class StartPageComponent implements OnInit {
       icon: "circle",
       snippetHeading: "Heading",
       snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
     }
   ]
 
@@ -107,7 +127,7 @@ export class StartPageComponent implements OnInit {
   }
 
   expandFilters(){
-    console.log("expandddd");
+    console.log("expand button clicked");
   }
 
   moveRight(){
@@ -119,11 +139,19 @@ export class StartPageComponent implements OnInit {
   }
 
   search(){
-    console.log("search sumthin");
+    console.log("search something");
   }
 
   snippetClick(){
-    console.log("snippet was clicked")
+    console.log("snippet was clicked");
+  }
+
+  profileClick(){
+  console.log("profile was clicked");
+  }
+
+  helpBtnClick(){
+    console.log("help button was clicked");
   }
 
 }
