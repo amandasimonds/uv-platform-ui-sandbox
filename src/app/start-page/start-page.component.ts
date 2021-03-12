@@ -16,7 +16,7 @@ export class StartPageComponent implements OnInit {
     },
     {
       icon: "inspect",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
 
@@ -27,17 +27,17 @@ export class StartPageComponent implements OnInit {
     },
     {
       icon: "designRipple",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
     {
       icon: "ingestion",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
     {
       icon: "settings",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
 
