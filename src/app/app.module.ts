@@ -12,8 +12,8 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { HomeComponent } from './home/home.component';
 import { SideBySideComponent } from './side-by-side/side-by-side.component';
 import { HomeSplashComponent } from './home-splash/home-splash.component';
-import { KeylinesComponent } from './keylines/keylines.component';
 import { GlobalWhereUsedComponent } from "./global-where-used/global-where-used.component";
+import { DataViewerComponent } from './data-viewer/data-viewer.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { GlobalWhereUsedComponent } from "./global-where-used/global-where-used.
     HomeSplashComponent,
     KlComponents,
     KlComponent,
-    KeylinesComponent,
-    GlobalWhereUsedComponent
+    GlobalWhereUsedComponent,
+    DataViewerComponent
   ],
   imports: [
     BrowserModule,

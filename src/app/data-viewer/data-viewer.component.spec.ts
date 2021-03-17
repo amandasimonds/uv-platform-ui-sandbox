@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KeylinesComponent } from './keylines.component';
+import { DataViewerComponent } from './data-viewer.component';
 
-describe('KeylinesComponent', () => {
-  let component: KeylinesComponent;
-  let fixture: ComponentFixture<KeylinesComponent>;
+describe('DataViewerComponent', () => {
+  let component: DataViewerComponent;
+  let fixture: ComponentFixture<DataViewerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ KeylinesComponent ]
+      declarations: [ DataViewerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KeylinesComponent);
+    fixture = TestBed.createComponent(DataViewerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
