@@ -1,14 +1,20 @@
-<div class="flex-container">
+<div class="fixed-container">
 
   <lib-navbar-dashboard [navlinks]="nav"></lib-navbar-dashboard>
 
 
   <lib-navbar-dashboard-sub
     headingTxt="Heading"
-    subHeadingTxt="Subheading" [snippets]="snippetBox"
+    subHeadingTxt="Subheading"
+    [snippets]="snippetBox"
+    [snippetClicked]="snippetClick"
   ></lib-navbar-dashboard-sub>
 
-  <lib-header-dashboard headerText="Dashboard" iconName="dashboard">
+  <lib-header-dashboard
+  headerText="Dashboard"
+  iconName="dashboard"
+  [profileBtnClicked]="profileClick"
+  [helpBtnClicked]="helpBtnClick">
 
 <lib-search-panel
   [rightArrowBtnClicked]="moveRight"
@@ -20,6 +26,12 @@
 </lib-search-panel>
 
   </lib-header-dashboard>
+
+  <lib-home-container>
+
+    <router-outlet></router-outlet>
+
+  </lib-home-container>
 
 </div>
 

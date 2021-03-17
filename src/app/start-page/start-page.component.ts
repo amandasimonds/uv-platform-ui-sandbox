@@ -11,39 +11,59 @@ export class StartPageComponent implements OnInit {
   nav = [
     {
       icon: "dashboard",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page/home-splash",
       classes: ["", ""],
     },
     {
       icon: "inspect",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
 
     {
       icon: "sideBySide",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page/side-by-side",
       classes: ["", ""]
     },
     {
       icon: "designRipple",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
     {
       icon: "ingestion",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
     {
       icon: "settings",
-      navlink: "/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page",
       classes: ["", ""]
     },
 
   ]
 
   snippetBox = [
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
+    {
+      icon: "circle",
+      snippetHeading: "Heading",
+      snippetTxt: "Snippet will go here on three lines. And is clickable"
+    },
     {
       icon: "circle",
       snippetHeading: "Heading",
@@ -103,11 +123,11 @@ export class StartPageComponent implements OnInit {
   }
 
   clear(){
-    console.log("clearbuttonclicked");
+    console.log("clear button clicked");
   }
 
   expandFilters(){
-    console.log("expandddd");
+    console.log("expand button clicked");
   }
 
   moveRight(){
@@ -119,7 +139,19 @@ export class StartPageComponent implements OnInit {
   }
 
   search(){
-    console.log("search sumthin");
+    console.log("search something");
+  }
+
+  snippetClick(){
+    console.log("snippet was clicked");
+  }
+
+  profileClick(){
+  console.log("profile was clicked");
+  }
+
+  helpBtnClick(){
+    console.log("help button was clicked");
   }
 
 }
