@@ -1,3 +1,6 @@
+import 'keylines';
+import { KlComponent, KlComponents, KlComponentsService } from '../../angular-keylines';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { UvUiLibModule } from "uv-ui-lib";
@@ -9,6 +12,8 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { HomeComponent } from './home/home.component';
 import { SideBySideComponent } from './side-by-side/side-by-side.component';
 import { HomeSplashComponent } from './home-splash/home-splash.component';
+import { KeylinesComponent } from './keylines/keylines.component';
+import { GlobalWhereUsedComponent } from "./global-where-used/global-where-used.component";
 
 @NgModule({
   declarations: [
@@ -17,14 +22,18 @@ import { HomeSplashComponent } from './home-splash/home-splash.component';
     StartPageComponent,
     HomeComponent,
     SideBySideComponent,
-    HomeSplashComponent
+    HomeSplashComponent,
+    KlComponents,
+    KlComponent,
+    KeylinesComponent,
+    GlobalWhereUsedComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     UvUiLibModule
   ],
-  providers: [],
+  providers: [KlComponentsService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }

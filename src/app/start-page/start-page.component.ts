@@ -16,7 +16,7 @@ export class StartPageComponent implements OnInit {
     },
     {
       icon: "inspect",
-      navlink: "/uv-platform-ui-sandbox/start-page",
+      navlink: "/uv-platform-ui-sandbox/start-page/gwu",
       classes: ["", ""]
     },
 

@@ -20,9 +20,10 @@
     "@angular/platform-browser": "~11.0.5",
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
+    "keylines": "file:../keylines-6.3.0-60626",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "uv-ui-lib": "^0.2.7",
+    "uv-ui-lib": "^0.2.8",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

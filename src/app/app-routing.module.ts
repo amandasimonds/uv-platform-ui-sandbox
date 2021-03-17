@@ -6,6 +6,7 @@ import { StartPageComponent } from "./start-page/start-page.component";
 import { HomeComponent } from "./home/home.component";
 import { HomeSplashComponent } from './home-splash/home-splash.component';
 import { SideBySideComponent } from './side-by-side/side-by-side.component';
+import { GlobalWhereUsedComponent } from "./global-where-used/global-where-used.component";
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
           {
             path: "side-by-side",
             component: SideBySideComponent
+          },
+          {
+            path: "gwu",
+            component: GlobalWhereUsedComponent
           }
         ]
       },
