@@ -1,5 +1,5 @@
 import 'keylines';
-import { KlComponent, KlComponents, KlComponentsService } from '../../angular-keylines';
+// import { KlComponent, KlComponents, KlComponentsService } from '../../angular-keylines';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -14,6 +14,7 @@ import { SideBySideComponent } from './side-by-side/side-by-side.component';
 import { HomeSplashComponent } from './home-splash/home-splash.component';
 import { GlobalWhereUsedComponent } from "./global-where-used/global-where-used.component";
 import { DataViewerComponent } from './data-viewer/data-viewer.component';
+import { WidgetSandboxComponent } from './widget-sandbox/widget-sandbox.component';
 
 @NgModule({
   declarations: [
@@ -23,17 +24,18 @@ import { DataViewerComponent } from './data-viewer/data-viewer.component';
     HomeComponent,
     SideBySideComponent,
     HomeSplashComponent,
-    KlComponents,
-    KlComponent,
+    // KlComponents,
+    // KlComponent,
     GlobalWhereUsedComponent,
-    DataViewerComponent
+    DataViewerComponent,
+    WidgetSandboxComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     UvUiLibModule
   ],
-  providers: [KlComponentsService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
